@@ -9,7 +9,8 @@
  * the one that is not affected by time jumps (settimeofday()), clock skew
  * (NTP, etc.), or processor affinity on SMP systems.
  *
- * Requires Linux, with kernel 2.6.28 or newer.
+ * Requires Linux. Not affected by time skew with kernel 2.6.28+.
+ *
  * Sorry Windows guys. Look into QueryPerformanceCounter instead. Or perhaps
  * get a better operating system. (I kid... I kid...)
  *
