@@ -1,6 +1,7 @@
 # HRT
 
-Simple wrapper for the high-resolution timer on Linux.
+Simple wrapper for the high-resolution timer on Linux. Reports elapsed time in
+nanoseconds.
 
 ## Step 1
 
@@ -24,6 +25,6 @@ printf("Worked for %s.\n", hrt_string());
 gcc -lrt your_program.c hrt.c
 ```
 
-## Profit?
+# Profit?
 
-Check out `hrt.h` if you need more info.
+Check out `hrt.h` if you need more guidance.
